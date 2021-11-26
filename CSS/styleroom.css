@@ -1,0 +1,296 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.header{
+  background-image: url("../Images/roomsheadimage.jpg");
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 730px;
+  opacity: (0,0,0,0.4);
+}
+
+.header > div{
+  height: auto;
+  width: auto;
+  background: rgb(0,0,0,0.8);
+}
+
+.navigation{
+  width: 100%;
+  height:93px;
+  position: sticky;
+  top: 0;
+  background-color: #e8e0d8;
+  z-index: 10;
+  overflow: hidden;
+}
+
+
+ul{
+  display: flex;
+  padding: 30px 0;
+  list-style-type: none;
+}
+
+li{
+  margin-right: auto;
+}
+
+.row1{
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px 20px 20px 345px;
+  word-wrap: break-word;
+  position: relative;
+  text-align: justify;
+}
+
+.row1 > div{
+  height:auto;
+  width: auto;
+  background-color: white;
+}
+
+.row2{
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px 20px 20px 435px;
+  word-wrap: break-word;
+  position: relative;
+}
+
+.row2 > div{
+  height:auto;
+  width: auto;
+  background-color: white;
+}
+
+.row3{
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px 20px 20px 435px;
+  word-wrap: break-word;
+  position: relative;
+  text-align: justify;
+}
+
+.row3 > div{
+  height:auto;
+  width: auto;
+  background-color: white;
+}
+
+.box0{
+  height: 200px;
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px 20px 20px 300px;
+  word-wrap: break-word;
+  background-color: white;
+}
+
+.box0 > div{
+  height: auto;
+  width: auto;
+}
+
+.box1{
+  background-image: url("../Images/roomsbox1.jpg");
+  height: 415px;
+  width: 356px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px 20px 20px 300px;
+  word-wrap: break-word;
+  color: white;
+  text-align: center;
+}
+
+.box1 > div{
+  height: auto;
+  width: auto;
+  background: rgb(0,0,0,0.4);
+}
+
+.box2{
+  background-image: url("../Images/roomsbox2.jpg");
+  height: 415px;
+  width: 356px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: -435px 100px 100px 700px;
+  word-wrap: break-word;
+  text-align: center;
+  color: white;
+}
+.box2 > div{
+  height: auto;
+  width: auto;
+  background: rgb(0,0,0,0.4);
+}
+
+.box3{
+  background-image: url("../Images/roomsbox3.jpg");
+  height: 415px;
+  width: 340px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: -513px 100px 100px 1100px;
+  word-wrap: break-word;
+  color: white;
+  text-align: center;
+}
+
+.box3 > div{
+  height: auto;
+  width: auto;
+  background: rgb(0,0,0,0.4);
+}
+
+.box4{
+  background-image: url("../Images/roomsbox4.jpg");
+  height: 490px;
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px 20px 20px 1000px;
+  word-wrap: break-word;
+  color: white;
+  text-align: center;
+}
+
+.box4 > div{
+  height: auto;
+  width: auto;
+  background: rgb(0,0,0,0.4);
+}
+
+footer{
+  background-color: black;
+  padding: 55px 0px 80px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  text-align: center;
+}
+
+.footer_1{
+  text-align: left;
+  margin-left: 50px;
+}
+
+footer > div{
+  height: auto;
+  width: auto;
+  background-color: black;
+  color: #ffffff;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.logo{
+  margin-right: auto;
+  height: 30px;
+  width: 45px;
+}
+
+.mainlogo{
+  position: relative;
+  margin-left: 380px;
+  margin-top: 60px
+}
+
+.textimage{
+  float: left;
+  height: 400px;
+  width: auto;
+}
+
+.textimage > div{
+  background: rgba(0,0,0,.4);
+}
+
+.textimage2{
+  float: right;
+  height: 300px;
+  width: auto;
+}
+
+.textimage2 > div{
+  background: rgba(0,0,0,.4);
+}
+
+.img7, .img8{
+  width: 100px;
+  height: 50px;
+  margin-right: 100px;
+}
+
+element.style {
+    position: relative;
+    height: 1360px;
+}
+
+.read-more-link{
+    position: relative;
+    font-family: Yeseva One,sans-serif;
+    font-size: 16px;
+    color: #896d4a;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    outline: 0;
+    transition: all .5s ease;
+}
+
+.meetbutton {
+    display: inline-block;
+    padding: 6px 16px;
+    color: #4a4539;
+    background-color: #e8e0d8;
+    font-family: Yeseva One,sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.booknowbutton {
+    display: inline-block;
+    padding: 6px 16px;
+    color: white;
+    background-color: green;
+    font-family: Yeseva One,sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all .5s ease;
+    position: absolute;
+}
